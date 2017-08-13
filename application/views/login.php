@@ -27,7 +27,7 @@
             </div><!-- /.login-logo -->
             <div class="login-box-body">
                 <p class="login-box-msg">Sign in to start your session</p>
-                <form action="<?php echo site_url('Auth/login_process') ?>" method="post">
+                <form action="<?php echo site_url('Auth/login') ?>" method="post">
                  <?php
                     if (validation_errors() || $this->session->flashdata('result_login')) {
                         ?>
